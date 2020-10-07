@@ -1,5 +1,8 @@
+body{
+  margin:0;
+}
 #main{
-    margin: 30px 8px;
+    margin: 8px 8px;
     background: #eee;
     text-align: center;
     padding: 15px;
@@ -13,6 +16,15 @@
   margin: 10px;
 
 }
+@media(max-width:400px){
+  #img-div{
+    padding: 10px;
+    background: white;
+    margin: 10px;
+  
+  }
+
+}
 
 h1{
   font-size: 2.3rem;
@@ -24,4 +36,20 @@ img{
   margin: 10px auto;
   max-width: 100%;
 
+}
+ul{
+  max-width: 545px;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1.6rem;
+}
+li{
+  margin-top: 16px;
+}
+blockquote{
+  max-width: 545px;
+  margin: 0 auto;
+  text-align: left;
+  font-style: italic;
+  line-height: 1.6rem;
 }
